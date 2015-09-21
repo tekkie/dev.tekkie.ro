@@ -1,15 +1,15 @@
 /* Links */
-a, a:focus, a:hover { color: #31394A; }
+a, a:focus, a:hover { color: #c6b595; }
 
-.navbar-fixed-bottom a, .navbar-fixed-bottom a:focus, .navbar-fixed-bottom a:hover { color: #fff; }
+.navbar-fixed-bottom a, .navbar-fixed-bottom a:focus, .navbar-fixed-bottom a:hover { color: #9d8b69; }
 
 /* Custom default button */
-.btn-secondary, .btn-secondary:hover, .btn-secondary:focus { color: #333; text-shadow: none; /* Prevent inheritence from `body` */ background-color: #31394A; border: 0.05rem solid #31394A; }
+.btn-secondary, .btn-secondary:hover, .btn-secondary:focus { color: #31394a; text-shadow: none; /* Prevent inheritence from `body` */ background-color: #c6b595; border: 0.05rem solid #c6b595; }
 
 /* Base structure */
-html, body { height: 100%; background-color: #333; font-family: Roboto; }
+html, body { height: 100%; background-color: #31394a; font-family: Roboto; }
 
-body { color: #fff; text-align: center; text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5); }
+body { color: #677084; text-align: center; text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5); }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper { display: table; width: 100%; height: 100%; /* For at least Firefox */ min-height: 100%; -webkit-box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); }
@@ -30,7 +30,7 @@ body { color: #fff; text-align: center; text-shadow: 0 0.05rem 0.1rem rgba(0, 0,
 
 .nav-masthead .nav-link + .nav-link { margin-left: 1rem; }
 
-.nav-masthead .active { color: #31394A; border-bottom-color: #31394A; }
+.nav-masthead .active { color: #c6b595; border-bottom-color: #c6b595; }
 
 @media (min-width: 48em) { .masthead-brand { float: left; }
   .nav-masthead { float: right; } }
@@ -49,6 +49,18 @@ body { color: #fff; text-align: center; text-shadow: 0 0.05rem 0.1rem rgba(0, 0,
   /* Handle the widths */
   .masthead, .mastfoot, .cover-container { width: 100%; /* Must be percentage or pixels for horizontal alignment */ } }
 @media (min-width: 62em) { .masthead, .mastfoot, .cover-container { width: 42rem; } }
-.jumbotron { background-color: #333; border: 1px #31394A solid; }
+.jumbotron { background-color: #31394a; border: 1px #c6b595 solid; }
 
 .pushFromTop { margin-top: 5rem; }
+
+.card { border-color: #677084; }
+
+.card-header { border-bottom: 0.0625rem solid #677084; }
+
+.card-header h2 { margin: 0; color: #31394a; }
+
+.card-footer, .card-header { background-color: #677084; }
+
+.jumbotron { border: none; }
+
+#main-navigation { border-bottom: 1px solid #5c4a28; }

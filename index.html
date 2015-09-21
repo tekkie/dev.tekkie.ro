@@ -1,5 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tekkie development tools</title>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
   <link href="css/base.css" rel="stylesheet" />
@@ -10,49 +12,53 @@
 </head>
 
 <body>
+<nav class="navbar navbar-light bg-inverse navbar-static-top bd-navbar clearfix" id="main-navigation">
+  <h3 class="masthead-brand">Dev Tools</h3>
+  <nav class="nav nav-masthead">
+    <a class="nav-link active" href="#">Home</a>
+    <a class="nav-link" href="http://www.tekkie.ro/contact/">Contact</a>
+  </nav>
+</nav>
 
-<div class="container-fluid site-wrapper">
+<div class="jumbotron jumbotron-fluid">
+  <h1>Developers Toolbox</h1>
+  <p class="lead">Tools to speed up the development process by making a developer's life easier.</p>
+</div>
 
-  <div class="site-wrapper-inner">
-
-    <div class="cover-container">
-
-      <div class="navbar navbar-light navbar-static-top bd-navbar clearfix">
-        <div class="inner">
-          <h3 class="masthead-brand">Dev Tools</h3>
-          <nav class="nav nav-masthead">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="http://www.tekkie.ro/contact/">Contact</a>
-          </nav>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-header">
+          <h2>Ready To Crawl</h2>
+        </div>
+        <div class="card-block">
+          <p class="card-text">Simple web pages that you can crawl to learn about functional testing.</p>
+          <p class="card-text">
+            <a href="#" class="btn btn-lg btn-secondary">Crawl me</a>
+          </p>
         </div>
       </div>
-
-      <!-- <h1>Developers Toolbox</h1> -->
-
-      <div class="inner cover jumbotron">
-        <h2>Ready To Crawl</h2>
-        <p class="lead">Simple web pages that you can crawl to learn about functional testing.</p>
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Crawl me</a>
-        </p>
-      </div>
-      <div class="inner cover jumbotron jumbotron-fluid">
-        <h2>Lipsum Generator</h2>
-        <p class="lead">Grabs text to fill in static pages while you design them.</p>
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Generate my text</a>
-        </p>
-      </div>
-
-      <nav class="navbar navbar-fixed-bottom navbar-light bg-inverse">
-        <p>Patiently cooked by <a href="http://tekkie.ro/">Tekkie Consulting</a>'s <a href="http://twitter.com/gbtekkie">@gbtekkie</a>.</p>
-      </nav>
-
     </div>
-
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-header">
+          <h2>Lipsum Generator</h2>
+        </div>
+        <div class="card-block">
+          <p class="card-text">Grabs text to fill in static pages while you design them.</p>
+          <p class="card-text">
+            <a href="#" class="btn btn-lg btn-secondary">Generate my text</a>
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
-
 </div>
+
+<nav class="navbar navbar-fixed-bottom navbar-light bg-inverse">
+  <p>Patiently cooked by <a href="http://tekkie.ro/">Tekkie Consulting</a>'s <a href="http://twitter.com/gbtekkie">@gbtekkie</a>.</p>
+</nav>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->

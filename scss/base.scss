@@ -1,8 +1,10 @@
-$primaryLinkColour: #31394A;
-$primaryTextColour: #fff;
-$backgroundColour: #333;
+$primaryLinkColour: #c6b595;
+$primaryTextColour: #677084;
+$backgroundColour: #31394a;
+$borderColour: #677084;
+$secondaryBorderColour: #5c4a28;
 $font: Roboto;
-$secondaryLinkColour: #fff;
+$secondaryLinkColour: #9d8b69;
 
 /* Links */
 a,
@@ -166,4 +168,29 @@ body {
 
 .pushFromTop {
   margin-top: 5rem;
+}
+
+.card {
+  border-color: $borderColour;
+}
+
+.card-header {
+  border-bottom: 0.0625rem solid $borderColour;
+}
+
+.card-header h2 {
+  margin: 0;
+  color: $backgroundColour;
+}
+
+.card-footer, .card-header {
+  background-color: $borderColour;
+}
+
+.jumbotron {
+  border: none;
+}
+
+#main-navigation {
+  border-bottom: 1px solid $secondaryBorderColour;
 }
