@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ready To crawl | Tekkie development tools</title>
+  <title>Ready To Crawl | Tekkie development tools</title>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-GHW2S7IZAQe8+YkyL99LyDj1zdWXSPOG+JZafCtKiSc= sha512-vxM32w6T7zJ83xOQ6FT4CEFnlasqmkcB0+ojgbI0N6ZtSxYvHmT7sX2icN07TqEqr5wdKwoLkmB8sAsGAjCJHg==" crossorigin="anonymous" />
   <link href="../../css/base.css" rel="stylesheet" />
   <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
@@ -12,6 +12,10 @@
 </head>
 
 <body>
+
+<script src="js/fb-login.js"></script>
+<div id="fb-root"></div>
+
 <nav class="navbar navbar-light bg-inverse navbar-static-top bd-navbar clearfix" id="main-navigation">
   <h3 class="masthead-brand">Dev Tools</h3>
   <nav class="nav nav-masthead">
@@ -33,6 +37,14 @@
     <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     <a href="popup.html" target="_blank" id="openPopup">Open Popup</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card">
+    <a id="loginWithFb" onClick="logIn();">Login with Facebook</a>
+
+    <div id="status"></div>
   </div>
 </div>
 
