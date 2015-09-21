@@ -1,0 +1,11 @@
+$ casperjs js/casper-scrape.js
+
+Loaded homepage with title: Ready To crawl | Tekkie development tools
+Taking picture 10.png of homepage
+Opening popup
+>> url popup created: http://dev.tekkie.ro/tools/ready-to-crawl/index.html
+>> url popup loaded: http://dev.tekkie.ro/tools/ready-to-crawl/index.html
+Popups count: 1
+Taking picture 20.png of the popup page
+Current location is: http://dev.tekkie.ro/tools/ready-to-crawl/index.html
+Taking picture 30.png of homepage after returning to it
