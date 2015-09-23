@@ -1,10 +1,15 @@
 /**
  * variables setup
  */
-var BaseUrl = 'http://dev.tekkie.ro/tools/ready-to-crawl/index.html'; // 'http://localhost:8080/tools/ready-to-crawl/index.html';
+//var BaseUrl = 'http://localhost:8080/tools/ready-to-crawl/index.html';
+//var TestUser = {
+//  'email': 'patricia_hjieuwo_mockingbird@tfbnw.net',
+//  'pass': '1234'
+//};
+var BaseUrl = 'http://dev.tekkie.ro/tools/ready-to-crawl/index.html';
 var TestUser = {
-  'email': 'patricia_hjieuwo_mockingbird@tfbnw.net',
-  'pass': '1234'
+  'email': 'open_tulwggc_user@tfbnw.net',
+  'pass': 'pass4testUser'
 };
 var screenshotDefaults = { top: 0, left: 0, width: 1000, height: 1000 };
 var casper = require('casper').create({
