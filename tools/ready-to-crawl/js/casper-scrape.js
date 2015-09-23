@@ -1,7 +1,7 @@
 /**
  * variables setup
  */
-var BaseUrl = 'http://localhost:8080/tools/ready-to-crawl/index.html';
+var BaseUrl = 'http://dev.tekkie.ro/tools/ready-to-crawl/index.html'; // 'http://localhost:8080/tools/ready-to-crawl/index.html';
 var TestUser = {
   'email': 'patricia_hjieuwo_mockingbird@tfbnw.net',
   'pass': '1234'
